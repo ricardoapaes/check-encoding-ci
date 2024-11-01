@@ -1,0 +1,9 @@
+name: 'Checks encoding'
+description: 'Checks the encoding of files in the repository.'
+author: ricardoapaes
+branding:
+  icon: 'upload'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

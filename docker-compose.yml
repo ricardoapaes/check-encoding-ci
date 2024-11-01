@@ -1,0 +1,8 @@
+services:
+  
+  check-encoding:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/:/app/
